@@ -534,6 +534,26 @@ python run_analysis.py data.csv --target price --api_key your_api_key_here
 これらの情報を参考に、画面で適切に情報を入力することで、データ分析ツールを最大限に活用できます。
 
 --------------------------------
+★仮想環境の有効化（アクティベート）方法は、使用しているOSやプロジェクトの設定によって異なります。主な方法を以下に示します：
+Windows の場合
+venv や virtualenv を使用している場合：
+# 仮想環境がプロジェクトフォルダ内の venv ディレクトリにある場合
+venv\Scripts\activate
+
+# または
+.\venv\Scripts\activate
+
+Anaconda/Miniconda を使用している場合：
+conda activate 環境名
+
+Mac または Linux の場合
+venv や virtualenv を使用している場合：
+source venv/bin/activate
+
+# または
+. venv/bin/activate
+
+-----------------------------------
 ★実行CMD
 
 (data_analysis_env) PS hogehoge\20250330_datayosoku> python gui_app.py
