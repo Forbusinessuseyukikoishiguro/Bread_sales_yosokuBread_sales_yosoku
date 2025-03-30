@@ -534,7 +534,12 @@ python run_analysis.py data.csv --target price --api_key your_api_key_here
 これらの情報を参考に、画面で適切に情報を入力することで、データ分析ツールを最大限に活用できます。
 
 --------------------------------
-★実行CMD
+★実行CMD1UI出す検索
 
 (data_analysis_env) PS hogehoge\20250330_datayosoku> python gui_app.py
+
+★実行コマンド２　レポート作成だけするもの
+(data_analysis_env) PS C:\Users\yukik\Desktop\20250330_datayosoku> python enhance_visualization.py ファイルpath指定
+--------------------------------
+
 
